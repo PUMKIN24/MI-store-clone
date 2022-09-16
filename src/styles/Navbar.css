@@ -1,0 +1,59 @@
+.nav {
+    z-index: 999;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+    background-color: #fff;
+
+}
+.logo {
+    background-color: orangered;
+    width:  58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+}
+.navlinks{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 1.1vmax;
+}
+.searchbox{
+    position: relative;
+    left: 5vmax;
+    
+}
+
+.searchbox > input{
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.7);
+    width: 15vmax;
+    outline: none;
+    color: rgb(61, 61, 61);
+    font-weight: 100;
+}
+ .searchIcon {
+    fill: gray;
+    font-size: 1em;
+} 
+
+.navlinks:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
+.logoImage{
+    transition: all 0.2s;
+    transform: translateX(-58px);
+}
+.logoImage:hover{
+    transform: translateX(0);
+}
